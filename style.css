@@ -1,0 +1,101 @@
+*{
+    margin-left: 25px;
+    margin-right: 25px;
+    background-color: gray;
+}
+div.menu{
+    display: inline-block;
+    align-content: center;
+
+}
+nav ul{
+    align-content: center;
+    margin-left: 200px;
+}
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+    margin: 35px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: aliceblue;
+    background-color: black;
+    padding: 5px;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+nav ul li a:hover{
+    background-color: red;
+    color: white;
+    padding: 8px;
+}
+.active{
+    background-color: silver;
+    color: blue;
+}
+div h1{
+    color: red;
+    margin-bottom: 15px;
+    background-color: white;
+    padding: 5px;
+    border-radius: 15px;
+    display: inline-block;
+}
+.text{
+    text-align: center;
+}
+div p{
+    margin-top: 15px;
+    padding: 5px;
+}
+ol{
+    text-align: center;
+    list-style-type: none;
+}
+div.desi{
+    text-align: center;
+}
+div h2{
+    color: white;
+    padding-left: 5px;
+    padding-right: 5px;
+    border-radius: 10px;
+    display: inline-block;
+}
+#me{
+    border: 2px solid white;
+    border-radius: 20px;
+    display: inline-block;
+    transition: 0.5s;
+}
+#me:hover{
+    background-color: white;
+    font-weight: bold;
+    transform: translateX(2rem);
+}
+div.info{
+    text-align: center;
+    font-style: italic;
+    font-size: 18px;
+}
+p strong{
+    color: blue;
+    transition: 0.5s;
+}
+p strong:hover{
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+    cursor: pointer;
+}
+p a{
+    text-decoration: none;
+    transition: 0.5s;
+}
+p a:hover{
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+    padding: 2px;
+}
