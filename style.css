@@ -99,3 +99,9 @@ p a:hover{
     border-radius: 10px;
     padding: 2px;
 }
+div img{
+    width: 600px;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    margin-left: 300px;
+}
